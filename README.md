@@ -1,6 +1,7 @@
 # Travel_agent
 
 Intelligent Travel Planner
+
 A multi-agent travel orchestration system built using the Google Agent Development Kit (ADK) and Gemini 2.5 Flash. This project automates complex travel research and planning by coordinating specialized AI agents.
 The system uses a hierarchical multi-agent architecture to process user travel requests. A central Root Agent manages session state and memory, delegating tasks to specialized sub-agents that perform web searches, weather lookups, and financial analysis to build a comprehensive itinerary.
 
