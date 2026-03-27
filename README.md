@@ -23,6 +23,7 @@ transport.py: Integrates transit-logistics-skill for detailed route planning.
 market_analyst.py: Integrates budget-estimation-skill for categorized financial breakdowns.
 
 External Tools and MCP Migration
+
 External capabilities are currently implemented as native Python functions in mcp_tools.py. These tools provide real-time data for weather (via Open-Meteo) and currency conversion (via Frankfurter API).
 The tools in mcp_tools.py are built with strict type-hinting and standardized docstrings, making them fully compatible with the Model Context Protocol (MCP).The architecture is designed to allow shifting these capabilities to a standalone FastMCP server. This will decouple the tool execution from the main application, allowing the travel capabilities to be served as an independent resource to any MCP-compatible client (e.g., Claude Desktop, Cursor, or other AI agents).
 
